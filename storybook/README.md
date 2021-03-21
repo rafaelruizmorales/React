@@ -1,10 +1,14 @@
 # Storybook
 
 ## Add Storybook:
-npx sb init
+```
+    npx sb init
+```
 
 ## Starts Storybook in development mode
-npm run storybook
+```
+    npm run storybook
+```
 
 ## 3 main files for each Story!
 
