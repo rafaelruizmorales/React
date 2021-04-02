@@ -1,0 +1,26 @@
+ input[type="file"] {
+     cursor: pointer !Important;
+ }
+
+ input[type="file"]::-webkit-file-upload-button {
+     border: none;
+     padding: 5px 12px;
+     margin-top: 20px;
+     background: #002945;
+     color: #fff;
+     font-size: 1em;
+     transition: all .4s;
+     cursor: pointer;
+     border-radius: 20px;
+ }
+
+ input[type="file"]::-ms-browse {
+     border: none;
+     padding: 5px 12px;
+     background: #002945;
+     color: #fff;
+     font-size: 1em;
+     transition: all .4s;
+     cursor: pointer;
+     border-radius: 20px;
+ }
