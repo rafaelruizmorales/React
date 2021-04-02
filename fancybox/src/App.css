@@ -1,0 +1,187 @@
+.App {
+  text-align: center;
+}
+
+.box {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 50px auto;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+
+.box p {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+}
+
+.mini-box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 100px auto;
+  cursor: pointer;
+}
+
+.fancyColorSelectBoxContainer {
+  display: inline-flex;
+}
+
+.box-AliceBlue {background-color: AliceBlue}
+.box-AntiqueWhite {background-color: AntiqueWhite}
+.box-Aqua {background-color: Aqua}
+.box-Aquamarine {background-color: Aquamarine}
+.box-Azure {background-color: Azure}
+.box-Beige {background-color: Beige}
+.box-Bisque {background-color: Bisque}
+.box-Black {background-color: Black}
+.box-BlanchedAlmond {background-color: BlanchedAlmond}
+.box-Blue {background-color: Blue}
+.box-BlueViolet {background-color: BlueViolet}
+.box-Brown {background-color: Brown}
+.box-BurlyWood {background-color: BurlyWood}
+.box-CadetBlue {background-color: CadetBlue}
+.box-Chartreuse {background-color: Chartreuse}
+.box-Chocolate {background-color: Chocolate}
+.box-Coral {background-color: Coral}
+.box-CornflowerBlue {background-color: CornflowerBlue}
+.box-Cornsilk {background-color: Cornsilk}
+.box-Crimson {background-color: Crimson}
+.box-Cyan {background-color: Cyan}
+.box-DarkBlue {background-color: DarkBlue}
+.box-DarkCyan {background-color: DarkCyan}
+.box-DarkGoldenRod {background-color: DarkGoldenRod}
+.box-DarkGray {background-color: DarkGray}
+.box-DarkGrey {background-color: DarkGrey}
+.box-DarkGreen {background-color: DarkGreen}
+.box-DarkKhaki {background-color: DarkKhaki}
+.box-DarkMagenta {background-color: DarkMagenta}
+.box-DarkOliveGreen {background-color: DarkOliveGreen}
+.box-DarkOrange {background-color: DarkOrange}
+.box-DarkOrchid {background-color: DarkOrchid}
+.box-DarkRed {background-color: DarkRed}
+.box-DarkSalmon {background-color: DarkSalmon}
+.box-DarkSeaGreen {background-color: DarkSeaGreen}
+.box-DarkSlateBlue {background-color: DarkSlateBlue}
+.box-DarkSlateGray {background-color: DarkSlateGray}
+.box-DarkSlateGrey {background-color: DarkSlateGrey}
+.box-DarkTurquoise {background-color: DarkTurquoise}
+.box-DarkViolet {background-color: DarkViolet}
+.box-DeepPink {background-color: DeepPink}
+.box-DeepSkyBlue {background-color: DeepSkyBlue}
+.box-DimGray {background-color: DimGray}
+.box-DimGrey {background-color: DimGrey}
+.box-DodgerBlue {background-color: DodgerBlue}
+.box-FireBrick {background-color: FireBrick}
+.box-FloralWhite {background-color: FloralWhite}
+.box-ForestGreen {background-color: ForestGreen}
+.box-Fuchsia {background-color: Fuchsia}
+.box-Gainsboro {background-color: Gainsboro}
+.box-GhostWhite {background-color: GhostWhite}
+.box-Gold {background-color: Gold}
+.box-GoldenRod {background-color: GoldenRod}
+.box-Gray {background-color: Gray}
+.box-Grey {background-color: Grey}
+.box-Green {background-color: Green}
+.box-GreenYellow {background-color: GreenYellow}
+.box-HoneyDew {background-color: HoneyDew}
+.box-HotPink {background-color: HotPink}
+.box-IndianRed {background-color: IndianRed}
+.box-Indigo {background-color: Indigo}
+.box-Ivory {background-color: Ivory}
+.box-Khaki {background-color: Khaki}
+.box-Lavender {background-color: Lavender}
+.box-LavenderBlush {background-color: LavenderBlush}
+.box-LawnGreen {background-color: LawnGreen}
+.box-LemonChiffon {background-color: LemonChiffon}
+.box-LightBlue {background-color: LightBlue}
+.box-LightCoral {background-color: LightCoral}
+.box-LightCyan {background-color: LightCyan}
+.box-LightGoldenRodYellow {background-color: LightGoldenRodYellow}
+.box-LightGray {background-color: LightGray}
+.box-LightGrey {background-color: LightGrey}
+.box-LightGreen {background-color: LightGreen}
+.box-LightPink {background-color: LightPink}
+.box-LightSalmon {background-color: LightSalmon}
+.box-LightSeaGreen {background-color: LightSeaGreen}
+.box-LightSkyBlue {background-color: LightSkyBlue}
+.box-LightSlateGray {background-color: LightSlateGray}
+.box-LightSlateGrey {background-color: LightSlateGrey}
+.box-LightSteelBlue {background-color: LightSteelBlue}
+.box-LightYellow {background-color: LightYellow}
+.box-Lime {background-color: Lime}
+.box-LimeGreen {background-color: LimeGreen}
+.box-Linen {background-color: Linen}
+.box-Magenta {background-color: Magenta}
+.box-Maroon {background-color: Maroon}
+.box-MediumAquaMarine {background-color: MediumAquaMarine}
+.box-MediumBlue {background-color: MediumBlue}
+.box-MediumOrchid {background-color: MediumOrchid}
+.box-MediumPurple {background-color: MediumPurple}
+.box-MediumSeaGreen {background-color: MediumSeaGreen}
+.box-MediumSlateBlue {background-color: MediumSlateBlue}
+.box-MediumSpringGreen {background-color: MediumSpringGreen}
+.box-MediumTurquoise {background-color: MediumTurquoise}
+.box-MediumVioletRed {background-color: MediumVioletRed}
+.box-MidnightBlue {background-color: MidnightBlue}
+.box-MintCream {background-color: MintCream}
+.box-MistyRose {background-color: MistyRose}
+.box-Moccasin {background-color: Moccasin}
+.box-NavajoWhite {background-color: NavajoWhite}
+.box-Navy {background-color: Navy}
+.box-OldLace {background-color: OldLace}
+.box-Olive {background-color: Olive}
+.box-OliveDrab {background-color: OliveDrab}
+.box-Orange {background-color: Orange}
+.box-OrangeRed {background-color: OrangeRed}
+.box-Orchid {background-color: Orchid}
+.box-PaleGoldenRod {background-color: PaleGoldenRod}
+.box-PaleGreen {background-color: PaleGreen}
+.box-PaleTurquoise {background-color: PaleTurquoise}
+.box-PaleVioletRed {background-color: PaleVioletRed}
+.box-PapayaWhip {background-color: PapayaWhip}
+.box-PeachPuff {background-color: PeachPuff}
+.box-Peru {background-color: Peru}
+.box-Pink {background-color: Pink}
+.box-Plum {background-color: Plum}
+.box-PowderBlue {background-color: PowderBlue}
+.box-Purple {background-color: Purple}
+.box-RebeccaPurple {background-color: RebeccaPurple}
+.box-Red {background-color: Red}
+.box-RosyBrown {background-color: RosyBrown}
+.box-RoyalBlue {background-color: RoyalBlue}
+.box-SaddleBrown {background-color: SaddleBrown}
+.box-Salmon {background-color: Salmon}
+.box-SandyBrown {background-color: SandyBrown}
+.box-SeaGreen {background-color: SeaGreen}
+.box-SeaShell {background-color: SeaShell}
+.box-Sienna {background-color: Sienna}
+.box-Silver {background-color: Silver}
+.box-SkyBlue {background-color: SkyBlue}
+.box-SlateBlue {background-color: SlateBlue}
+.box-SlateGray {background-color: SlateGray}
+.box-SlateGrey {background-color: SlateGrey}
+.box-Snow {background-color: Snow}
+.box-SpringGreen {background-color: SpringGreen}
+.box-SteelBlue {background-color: SteelBlue}
+.box-Tan {background-color: Tan}
+.box-Teal {background-color: Teal}
+.box-Thistle {background-color: Thistle}
+.box-Tomato {background-color: Tomato}
+.box-Turquoise {background-color: Turquoise}
+.box-Violet {background-color: Violet}
+.box-Wheat {background-color: Wheat}
+.box-White {background-color: White}
+.box-WhiteSmoke {background-color: WhiteSmoke}
+.box-Yellow {background-color: Yellow}
+.box-YellowGreen {background-color: YellowGreen}
+
+
