@@ -1,10 +1,22 @@
-import { Counter } from './Counter'
+import * as React from 'react'
 
-export const App = () => {
+import { Provider } from 'react-redux'
+
+import { store } from './redux/store'
+
+import Welcome from './components/Welcome'
+import UserContainer from './components/UserContainer'
+
+export const App: React.FC = () => {
+  const age = 34
+
   return (
-    <>
-      <h1>React TypeScript Webpack Starter Template</h1>
-      <Counter />
-    </>
+    <Provider store={store}>
+      <div>
+        <Welcome name="Yun" />
+        <Welcome name="Rafa" age={age} />
+        <UserContainer />
+      </div>
+    </Provider>
   )
 }
