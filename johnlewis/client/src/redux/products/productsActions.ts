@@ -30,16 +30,16 @@ export const fetchProductsFailure = (error: string) => {
 }
 
 export const fetchProducts = () => {
-  return (dispatch: any) => {
+  return async (dispatch: any) => {
     dispatch(fetchProductsRequest)
-
-    axios.get('http://localhost:5000/products')
-      .then(response => {
-        const products = response.data
+    
+    try {
+      const response = await axios.get('http://localhost:5000/products')
+      
+      const products = response.data
         dispatch(fetchProductsSuccess(products))
-      })
-      .catch(error => {
-        dispatch(fetchProductsFailure(error.message))
-      })
+    } catch(error) {
+      dispatch(fetchProductsFailure(error.message))
+    }
   }
 }

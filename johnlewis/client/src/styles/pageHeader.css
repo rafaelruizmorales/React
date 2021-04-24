@@ -1,0 +1,11 @@
+h1.pageHeader {
+  text-align: center;
+  padding: 50px;
+  background-color: #F7F7F7;
+}
+
+h1.pageHeader > span.backButton button {
+  border: none;
+  float: left;
+  background-color: #F7F7F7;
+}

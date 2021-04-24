@@ -1,4 +1,3 @@
-
 interface price {
   currency: string;
   now: string;

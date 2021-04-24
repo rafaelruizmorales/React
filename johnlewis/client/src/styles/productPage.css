@@ -1,0 +1,38 @@
+#ProductCarousel {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F7F7F7;
+}
+
+#ProductCarousel .slider {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.text-green {
+  color:#4CAF50;
+}
+
+#dynamicAttributesTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#dynamicAttributesTable td, #dynamicAttributesTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#dynamicAttributesTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#dynamicAttributesTable tr:hover {background-color: #ddd;}
+
+#dynamicAttributesTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}

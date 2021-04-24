@@ -1,9 +1,9 @@
-import express from 'express';
+const express = require('express')
 
-import { 
+const { 
     getProducts,
     getProduct,
-} from '../controllers/products.js';
+} = require('../controllers/products.js');
 
 const router = express.Router();
     // GET -> http://localhost:5000/products                   200 | 404
@@ -12,4 +12,4 @@ const router = express.Router();
     // GET -> http://localhost:5000/products/1955287           200 | 404
     router.get('/:id', getProduct);
 
-export default router;
+module.exports = router;

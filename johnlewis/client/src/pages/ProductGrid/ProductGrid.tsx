@@ -9,6 +9,9 @@ import { productModel } from '../../redux/products/model'
 import { fetchProducts } from '../../redux'
 
 import Product from '../../components/Product/Product'
+import PageHeader from '../../components/PageHeader/PageHeader';
+
+import '../../styles/productGrid.css'
 
 const ProductGrid: React.FC = () => {
   const dispatch = useDispatch()
@@ -17,7 +20,7 @@ const ProductGrid: React.FC = () => {
 
   React.useEffect(() => {
     dispatch(fetchProducts())
-  }, [dispatch])
+  }, [])
 
 
   if (products.length === 0) {
@@ -26,14 +29,17 @@ const ProductGrid: React.FC = () => {
 
   return (
     <>
-        <h1>{products.categoryTitle} ({products.results})</h1>
-        
-        
-        {products && products.products.map((product: productModel) => {
-          return (
-            <Product key={product.productId} product={product} />
-          )
-        })}
+      <PageHeader title={`${products.categoryTitle} (${products.results})`} />
+
+      <div className="grid container">
+        <div className="row">
+            {products && products.products.map((product: productModel) => {
+              return (
+                <Product key={product.productId} product={product} />
+              )
+            })}
+      </div>
+    </div>
           
     </>
   );
